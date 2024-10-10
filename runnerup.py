@@ -1,5 +1,12 @@
-score = [9,5,1,3,2]
+score_list = [2,3,6,6,5]
 
+score_set = set(score_list)
+
+print(score_set)
+
+score = list(score_set)
+
+print(score)
 
 score.sort()
 
