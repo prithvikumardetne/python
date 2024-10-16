@@ -1,6 +1,6 @@
 import re   
 
-pattern = '^\d{4}-?\d{4}-?\d{4}-?\d{4}$'
+pattern = r'^\d{4}-?\d{4}-?\d{4}-?\d{4}$'
 
 test_string = '5122-4512-8965-3256'
 
